@@ -45,6 +45,12 @@
         <developerConnection>scm:git:ssh://github.com/alipay/sofa-jraft.git</developerConnection>
         <url>http://github.com/alipay/sofa-jraft/tree/master</url>
     </scm>
+    <distributionManagement>
+        <repository>
+            <id>thirdparty</id>
+            <url>http://qbsea.com:8081/nexus/content/repositories/thirdparty/</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <affinity.version>3.1.7</affinity.version>
@@ -76,7 +82,6 @@
         <rocksdb.version>5.14.2</rocksdb.version>
         <slf4j.version>1.7.21</slf4j.version>
     </properties>
-
     <dependencyManagement>
 
         <dependencies>
